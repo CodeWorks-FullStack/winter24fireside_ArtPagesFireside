@@ -1,0 +1,25 @@
+@import "./_variables.scss";
+@import "./_utilities.scss";
+@import "./loaders.scss";
+
+body {
+  overscroll-behavior: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bs-page);
+}
+
+main {
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
